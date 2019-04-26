@@ -9705,7 +9705,7 @@ body {
         width: 100% !important;
         min-height: 120px;
         height: auto !important; }
-      body .mainContainer .featuredItems .button {
+      body .mainContainer .featuredItems .button1 {
         width: 100% !important;
         height: 203px !important; }
       body .mainContainer .featuredItems .itemsIcons {
@@ -9736,37 +9736,37 @@ body {
             font-weight: 700;
             color: #ffffff; }
         body .mainContainer .featuredItems .fItems .fItem1 {
-          background: url(../images/Layer_2.jpg) no-repeat, #ffffff;
+
           -webkit-background-size: 100% 100%;
                   background-size: 100%; }
         body .mainContainer .featuredItems .fItems .fItem2 {
-          background: url(../images/Layer_3.jpg) no-repeat, #ffffff;
+
           -webkit-background-size: 100% 100%;
                   background-size: 100%; }
         body .mainContainer .featuredItems .fItems .fItem3 {
-          background: url(../images/Layer_4.jpg) no-repeat, #ffffff;
+
           -webkit-background-size: 102% 102%;
                   background-size: 102%; }
         body .mainContainer .featuredItems .fItems .fItem4 {
-          background: url(../images/Layer_5.jpg) no-repeat, #ffffff;
+
           -webkit-background-size: 100% 100%;
                   background-size: 100%; }
         body .mainContainer .featuredItems .fItems .fItem5 {
-          background: url(../images/Layer_6.jpg) no-repeat, #ffffff;
+
           -webkit-background-size: 100% 100%;
                   background-size: 100%; }
         body .mainContainer .featuredItems .fItems .fItem6 {
-          background: url(../images/Layer_7.jpg) no-repeat, #ffffff;
+
           -webkit-background-size: 100% 100%;
                   background-size: 100%;
           width: inherit;
           height: 279px; }
         body .mainContainer .featuredItems .fItems .fItem7 {
-          background: url(../images/Layer_8.jpg) no-repeat, #ffffff;
+
           -webkit-background-size: 105% 105%;
                   background-size: 105%; }
         body .mainContainer .featuredItems .fItems .fItem8 {
-          background: url(../images/Layer_9.jpg) no-repeat, #ffffff;
+
           -webkit-background-size: 100% 100%;
                   background-size: 100%; }
         body .mainContainer .featuredItems .fItems .sign {
@@ -9783,7 +9783,7 @@ body {
             text-transform: uppercase;
             color: #f16d7f; }
       body .mainContainer .featuredItems #first {
-        padding-top: 30px;
+        padding-top: 10px;
         width: 100%;
         height: 51px; }
         body .mainContainer .featuredItems #first h1 {
