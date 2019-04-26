@@ -1,3 +1,4 @@
+//Не понятно почему const? 
 const products = [
     {id: 1, title: 'mango people t-shirt', price: "$52", link: 'images/Layer_2.jpg'},
     {id: 2, title: 'mango people t-shirt', price: "$52", link: 'images/Layer_3.jpg'},
