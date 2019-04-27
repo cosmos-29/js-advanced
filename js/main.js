@@ -1,4 +1,3 @@
-//Не понятно почему const? 
 const products = [
     {id: 1, title: 'mango people t-shirt', price: "$52", link: 'images/Layer_2.jpg'},
     {id: 2, title: 'mango people t-shirt', price: "$52", link: 'images/Layer_3.jpg'},
@@ -9,7 +8,7 @@ const products = [
     {id: 7, title: 'mango people t-shirt', price: "$52", link: 'images/Layer_8.jpg'},
     {id: 8, title: 'mango people t-shirt', price: "$52", link: 'images/Layer_9.jpg'},
 ];
-const renderProduct = (title, price, id, link) => {
+const renderProduct = (title = 'временно недоступен', price, id, link = 'https://placehold.it/200x150') => {
     return `<div class="fItems">
                 <div class="fItem${id} forAdaptive" style="background:url(${link}) #ffffff no-repeat;">
                     <div class="background" >
@@ -26,15 +25,18 @@ const renderProduct = (title, price, id, link) => {
 
 
 const renderPage = list => {
-    console.log(list);
+    /*console.log(list);
     const productList = list.map(item => renderProduct(item.title, item.price, item.id, item.link));
     let productString = '';
     // Стандартная реализация
-    /*for (let i = 0; i < productList.length; ++i) {
+    /!*for (let i = 0; i < productList.length; ++i) {
         productString += productList[i];
-    }*/
+    }*!/
     // Реализация быстрая
     productString = productList.join('');
-    document.querySelector('.itemsIcons').innerHTML = productString;
+    document.querySelector('.itemsIcons').innerHTML = productString;*/
+    for (let el of list) {
+        document.querySelector('.products').insertAdjacentHTML('beforeend', renderProduct(el));
+    }
 };
 renderPage(products);
