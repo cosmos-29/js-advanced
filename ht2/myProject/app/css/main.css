@@ -8828,10 +8828,15 @@ body {
       -webkit-flex-direction: row;
           -ms-flex-direction: row;
               flex-direction: row; }
+      body header .navbar .navbar-toggler {
+        background-color: #dc3545;
+        opacity: .5; }
       body header .navbar a {
         color: #dc3545 !important; }
-      body header .navbar button:not(:first-child) {
-        margin-left: 50px; }
+      body header .navbar button {
+        /*&:not(:first-child) {
+                        margin-left: 50px;
+                    }*/ }
       body header .navbar .form-inline {
         display: -webkit-box;
         display: -webkit-flex;
@@ -8858,9 +8863,10 @@ body {
     -webkit-flex-grow: 1;
         -ms-flex-positive: 1;
             flex-grow: 1;
+    width: auto;
     padding-top: 30px; }
     body main .card {
-      width: 70%; }
+      width: 100%; }
       body main .card .card-body {
         display: -webkit-box;
         display: -webkit-flex;
@@ -8880,6 +8886,7 @@ body {
             -ms-flex-pack: center;
                 justify-content: center; }
   body footer {
+    margin-top: 30px;
     background: #343a40;
     display: -webkit-box;
     display: -webkit-flex;
