@@ -31,6 +31,12 @@ class ProductsHamburger {
             {id: 6, title: 'Pepper', price: 15, calories: 0},
             {id: 8, title: 'Mayonnes', price: 20, calories: 5},
         ];
+        let counter = 1;
+        for (let product of this.toppings) {
+            counter++;
+            let checkboxd= 'defaultCheck' + counter;
+            product.idOfElement = checkboxd;
+        }
     }
 
     _genSummaryItem() {
@@ -52,7 +58,7 @@ class ProductsHamburger {
                 const blockForTurn = document.querySelector(this.container2);
                 for (let item of product.link) {
                     blockForTurn .insertAdjacentHTML('beforeend', `<div class="form-check">
-                                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck${item.id - prod.id}">
+                                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck${item.id - prod.id - 1}">
                                         <label class="form-check-label" for="defaultCheck1">
                                             ${item.title}
                                         </label>
@@ -62,6 +68,7 @@ class ProductsHamburger {
             i++;
         }
     }
+
 }
 class ProductItemForRender {
     constructor(product, k, img = 'https://placehold.it/370x370') {
@@ -100,12 +107,15 @@ class ProductItem {
         this.link = null;
         this.img = img;
         this.compare = n;
+        //this.Checkbox = null;
         this._returnLink(k);
     }
 
 
     _returnLink(k) {
-        if (this.compare) this.link = k;
+        if (this.compare) {
+            this.link = k;
+        }
     }
 }
 
