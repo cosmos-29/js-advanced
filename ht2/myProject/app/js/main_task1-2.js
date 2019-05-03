@@ -90,6 +90,7 @@ class Cart {
         for (let product of this.array) {
           this.sum += product.price;
         }
+        // return методо reduce
         //cartQuantity.innerHTML = this._render();
         cartQuantity.insertAdjacentHTML('beforeend', this._render());
         //cartQuantity.insertAdjacentHTML('beforeend', )

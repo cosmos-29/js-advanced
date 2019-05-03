@@ -1,4 +1,5 @@
 // Создаем класс генерация продуктов;
+/*
 class ProductsHamburger {
     constructor(container = ['.burgers', '.checkOptions'], check =  [false, true]) {
         this.container = container[0];
@@ -121,8 +122,10 @@ class ProductItem {
 
 const newObject = new ProductsHamburger();
 
+*/
 
 //Создаем класс Гамбургерс
+/*
 class Hamburger {
     constructor(size, stuffing) {
         this.size = size;
@@ -153,6 +156,16 @@ class Hamburger {
 
     }
 }
+
+class ListenerOfButton {
+    constructor(id) {
+
+    }
+}
+let buttonOfCalc = document.querySelector(body main .container .burgers .card .card-body button)
+
+
+*/
 
 //const burgerGen = new Hamburger();
 
