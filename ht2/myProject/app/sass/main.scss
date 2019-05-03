@@ -160,6 +160,19 @@
                         background-color: $buttonColor;
                         
                     }
+                    .check {
+                        background-color:$mainColor;
+                        color: $colorAll;
+                        width: 200px;
+                        height: 50px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        margin:auto;
+                        &:hover {
+                            color: $buttonColor;
+                        }
+                    }
                 }
             }
         }

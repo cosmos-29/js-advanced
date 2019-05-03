@@ -8955,7 +8955,47 @@ body {
             body footer .container ul li a:hover {
               color: #dc3545; }
 
-body main .container .burgers .card {
-  width: 100%; }
-  body main .container .burgers .card .card-body button {
-    margin-top: 30px; }
+body main .container .burgers legend {
+  background-color: #343a40;
+  color: #dc3545;
+  padding: 3px 6px; }
+
+body main .container .burgers input {
+  margin: .4rem; }
+
+body main .container .burgers input[type='radio']:after {
+  width: 15px;
+  height: 15px;
+  -webkit-border-radius: 15px;
+          border-radius: 15px;
+  top: -2px;
+  left: -1px;
+  position: relative;
+  background-color: #ffffff;
+  content: '';
+  display: inline-block;
+  visibility: visible; }
+
+body main .container .burgers input:checked:after {
+  background-color: #dc3545; }
+
+body main .container .burgers .check {
+  background-color: #343a40;
+  color: #ffffff;
+  width: 200px;
+  height: 50px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: auto; }
+  body main .container .burgers .check:hover {
+    color: #dc3545; }
