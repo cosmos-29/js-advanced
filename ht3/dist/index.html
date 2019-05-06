@@ -21,29 +21,46 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <form class="form-inline">
-                    <button type="button" class="btn btn-outline-danger" onclick="window.location='index.html'">Магазин</button>
-                    <button type="button" class="btn btn-outline-danger" onclick="window.location='hamburgers.html'">Бургерная
+                    <button type="button" class="btn btn-outline-danger" onclick="window.location='index.html'">
+                        Магазин
+                    </button>
+                    <button type="button" class="btn btn-outline-danger" onclick="window.location='hamburgers.html'">
+                        Бургерная
                     </button>
                     <div class="stretch"></div>
                     <!-- Button trigger modal -->
-                    <button type="button" class="btn btn-outline-danger cart-account" data-toggle="modal" data-target="#exampleModal">
+                    <button type="button" class="btn btn-outline-danger cart-account" data-toggle="modal"
+                            data-target="#exampleModal">
                         <i class="fas fa-cart-plus"></i>
                     </button>
                     <!-- Modal -->
-                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+                         aria-labelledby="exampleModalLabel" aria-hidden="true">
                         <div class="modal-dialog" role="document">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                        <span aria-hidden="true">&times;</span>
-                                    </button>
+                                    <h5 class="modal-title" id="exampleModalLabel">Ваша Корзина</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                                            aria-hidden="true">&times;</span></button>
                                 </div>
-                                <div class="modal-body">
-                                    ...
+
+                                <div class="container">
+                                    <div class="container-fluid forCart">
+                                        <div class="row">
+                                            <div class="col-md-4">Наименование Товара</div>
+                                            <div class="col-md-4">Количество</div>
+                                            <div class="col-md-4">Стоимость единицы</div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-4">Общее количество товаров</div>
+                                            <div class="col-md-4">Кол. <span class="countGoods"></span></div>
+                                            <div class="col-md-4">Итого <span class="allPrice"></span></div>
+                                        </div>
+                                    </div>
                                 </div>
+
                                 <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-secondary close2" data-dismiss="modal">Close</button>
                                     <button type="button" class="btn btn-outline-danger">Save changes</button>
                                 </div>
                             </div>
@@ -59,9 +76,9 @@
 <main>
     <div class="container">
 
-            <div class="row forItems">
+        <div class="row forItems">
 
-            </div>
+        </div>
 
     </div>
 
@@ -82,6 +99,25 @@
     <script src="js/popper.js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/main_task1-2.js"></script>
+    <script>
+        window.onload = () => {
+            document.querySelector('.cart-account').addEventListener('click', () => {
+                    let cart = new CartList();
+                }
+            );
+            document.querySelector('.close').addEventListener('click', () => {
+                    document.querySelectorAll('.del').forEach(el => el.remove());
+                }
+            );
+            document.querySelector('.close2').addEventListener('click', () => {
+                    document.querySelectorAll('.del').forEach(el => el.remove());
+                }
+            );
+        };
+
+
+
+    </script>
 </footer>
 </body>
 </html>

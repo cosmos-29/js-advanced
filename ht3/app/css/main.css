@@ -8954,6 +8954,8 @@ body {
             color: #ffffff; }
             body footer .container ul li a:hover {
               color: #dc3545; }
+  body .modal container-fluid {
+    padding: 10px !important; }
 
 body main .container .burgers legend {
   background-color: #343a40;
