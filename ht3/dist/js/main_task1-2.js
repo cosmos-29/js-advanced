@@ -10,7 +10,7 @@ class ProductsList {
 
     _init() {
         this._fetchProducts()
-            //.then(() => this._render())
+        //.then(() => this._render())
             .then(() => console.log(this._calcSum()));
 
         this._render();
@@ -158,17 +158,26 @@ class CartList {
         // }
         return string;
     }
+
     renderAll() {
         const block = document.querySelector(this.container);
         block.innerHTML = this._render();
     }
+
     add(item) {
         let obj = {};
-        if (!this.cart.contents) {
-            [...products.products].forEach(pos => {
-                const prodObj = new CartItem(item, pos.product_name, pos.price, pos.id_product, 1);
-                [...this.cart.contents].push(prodObj)
+        if (this.cart.contents.length < products.products.length) {
+            if (this.cart.contents.find(el => el.id_product === item)) {
+                this.cart.contents.forEach(el => {
+                    if (el.id_product === item) el.quantity += 1;
             })
+            } else
+                {
+                    [...products.products].forEach(pos => {
+                        const prodObj = new CartItem(item, pos.product_name, pos.price, pos.id_product, 1);
+                        if (item === pos.id_product) this.cart.contents.push(prodObj);
+                    })
+                }
 
         } else if (!this.cart.contents.find(el => el.id_product === item)) {
             [...products.products].forEach(pos => {
@@ -179,13 +188,12 @@ class CartList {
                 }
             })
         } else {
-        this.cart.contents.forEach(el => {
-            if (el.id_product === item) {
-                el.quantity += 1;
-            }
-        });
+            this.cart.contents.forEach(el => {
+                if (el.id_product === item) {
+                    el.quantity += 1;
+                }
+            });
         }
-
 
 
         // forEach(el => {
@@ -202,7 +210,11 @@ class CartList {
     }
 
     removeAll() {
-        this.cart = {};
+        this.cart = {
+            amount: 0,
+            countGoods: 0,
+            contents: [],
+        };
         this.cartAll = [];
         this.renderAll();
     }
@@ -212,8 +224,9 @@ class CartList {
         document.querySelector('.countGoods').innerHTML = this.cart.quantity;
     }
 }
+
 class CartItem {
-    constructor(item, x = item.product_name, y = item.price, z = item.id_product, w= item.quantity) {
+    constructor(item, x = item.product_name, y = item.price, z = item.id_product, w = item.quantity) {
         this.product_name = x;
         this.price = y;
         this.id_product = z;
@@ -228,6 +241,7 @@ class CartItem {
                  </div>`
     }
 }
+
 let carts = new CartList();
 
 // Создаем класс data для отображения в footer;
