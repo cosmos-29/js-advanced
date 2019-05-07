@@ -61,7 +61,7 @@
 
                                 <div class="modal-footer">
                                     <button type="button" class="btn btn-secondary close2" data-dismiss="modal">Close</button>
-                                    <button type="button" class="btn btn-outline-danger">Save changes</button>
+                                    <button type="button" class="btn btn-outline-danger reset">Очистить корзину</button>
                                 </div>
                             </div>
                         </div>
@@ -100,19 +100,17 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/main_task1-2.js"></script>
     <script>
+
         window.onload = () => {
+            console.log(carts);
             document.querySelector('.cart-account').addEventListener('click', () => {
-                    let cart = new CartList();
-                }
-            );
-            document.querySelector('.close').addEventListener('click', () => {
-                    document.querySelectorAll('.del').forEach(el => el.remove());
-                }
-            );
-            document.querySelector('.close2').addEventListener('click', () => {
-                    document.querySelectorAll('.del').forEach(el => el.remove());
-                }
-            );
+                //cartNew.renderFinal();
+                carts.renderAll();
+            });
+            document.querySelector('.reset').addEventListener('click', () => {
+                //cartNew.renderFinal();
+                carts.removeAll();
+            });
         };
 
 
