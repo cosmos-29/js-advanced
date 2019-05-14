@@ -20,7 +20,9 @@ class FormList {
         this._validate();
     }
     _validate() {
-        //if (this.mail =)
+        if (emailRegExp.test(this.mail)) console.log('Мыло верно');
+        if (nameRegExp.test(this.mail)) console.log('Имя Бэнч');
+
 
     }
 }
@@ -29,6 +31,9 @@ let classCheckList = new FormList();
 const array = ['name', 'mail', 'phone'];
 
 const emailRegExp = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+const nameRegExp = /[a-z]+/i;
 const
+
+
 
 
