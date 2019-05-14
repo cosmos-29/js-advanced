@@ -24,37 +24,18 @@
                     <button type="button" class="btn btn-outline-danger" onclick="window.location='index.html'">Магазин</button>
                     <button type="button" class="btn btn-outline-danger" onclick="window.location='hamburgers.html'">Бургерная
                     </button>
-                    <div class="stretch"></div>
+                    <div class="stretchBox"></div>
+                    <form action="#" class="search-form">
+                        <input type="text" class="search-field">
+                        <button class="btn-search" type="submit">
+                        <i class="fas fa-search"></i>
+                        </button>
+                    </form>
                     <!-- Button trigger modal -->
-                    <button type="button" class="btn btn-outline-danger cart-account" data-toggle="modal" data-target="#exampleModal">
-                        <i class="fas fa-cart-plus"></i>
-                    </button>
-                    <!-- Modal -->
-                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                            <div class="modal-dialog" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span> </button>
-                                    </div>
-                                    
-                                        <div class="conteiner">
-                                            <container-fluid>
-                                            <div class="row">
-                                                <div class="col-md-4">Наименование Товара</div>
-                                                <div class="col-md-4">Количество</div>
-                                                <div class="col-md-4">Стоимость единицы</div>
-                                            </div>
-                                        </container-fluid>
-                                        </div>
-                                    
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                        <button type="button" class="btn btn-outline-danger">Save changes</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                    <button type="button" class="btn btn-outline-danger btn-cart"><i class="fas fa-cart-plus"></i>
+                    </button>                    
+                    <!--Всплывающее меню-->
+                    <div class="cart-block invisible"></div>              
 
                 </form>
             </div>

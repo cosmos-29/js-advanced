@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="RU">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
@@ -22,50 +22,24 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <form class="form-inline">
                     <button type="button" class="btn btn-outline-danger" onclick="window.location='index.html'">
-                        Магазин
-                    </button>
+                        Магазин</button>
                     <button type="button" class="btn btn-outline-danger" onclick="window.location='hamburgers.html'">
                         Бургерная
                     </button>
-                    <div class="stretch"></div>
-                    <!-- Button trigger modal -->
-                    <button type="button" class="btn btn-outline-danger cart-account" data-toggle="modal"
-                            data-target="#exampleModal">
-                        <i class="fas fa-cart-plus"></i>
+                    <button type="button" class="btn btn-outline-danger" onclick="window.location='submitForms.html'">Валидация
                     </button>
-                    <!-- Modal -->
-                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
-                         aria-labelledby="exampleModalLabel" aria-hidden="true">
-                        <div class="modal-dialog" role="document">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title" id="exampleModalLabel">Ваша Корзина</h5>
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
-                                            aria-hidden="true">&times;</span></button>
-                                </div>
-
-                                <div class="container">
-                                    <div class="container-fluid forCart">
-                                        <div class="row">
-                                            <div class="col-md-4">Наименование Товара</div>
-                                            <div class="col-md-4">Количество</div>
-                                            <div class="col-md-4">Стоимость единицы</div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-md-4">Общее количество товаров</div>
-                                            <div class="col-md-4">Кол. <span class="countGoods"></span></div>
-                                            <div class="col-md-4">Итого <span class="allPrice"></span></div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary close2" data-dismiss="modal">Close</button>
-                                    <button type="button" class="btn btn-outline-danger reset">Очистить корзину</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    <div class="stretchBox"></div>
+                    <form action="#" class="search-form">
+                        <input type="text" class="search-field">
+                        <button class="btn-search" type="submit">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </form>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-outline-danger btn-cart"><i class="fas fa-cart-plus"></i>
+                    </button>                    
+                    <!--Всплывающее меню-->
+                    <div class="cart-block invisible"></div>
 
                 </form>
             </div>
@@ -76,9 +50,7 @@
 <main>
     <div class="container">
 
-        <div class="row forItems">
-
-        </div>
+            <div class="row products"></div>
 
     </div>
 
@@ -99,23 +71,6 @@
     <script src="js/popper.js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/main_task1-2.js"></script>
-    <script>
-
-        window.onload = () => {
-            console.log(carts);
-            document.querySelector('.cart-account').addEventListener('click', () => {
-                //cartNew.renderFinal();
-                carts.renderAll();
-            });
-            document.querySelector('.reset').addEventListener('click', () => {
-                //cartNew.renderFinal();
-                carts.removeAll();
-            });
-        };
-
-
-
-    </script>
 </footer>
 </body>
 </html>

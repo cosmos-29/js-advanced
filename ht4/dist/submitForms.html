@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+          integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <title>Home Task #4</title>
+</head>
+<body>
+<header>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+            <a class="navbar-brand" href="#">E-Shop</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <form class="form-inline">
+                    <button type="button" class="btn btn-outline-danger" onclick="window.location='index.html'">
+                        Магазин</button>
+                    <button type="button" class="btn btn-outline-danger" onclick="window.location='hamburgers.html'">
+                        Бургерная
+                    </button>
+                    <button type="button" class="btn btn-outline-danger" onclick="window.location='submitForms.html'">Валидация
+                    </button>
+                    <div class="stretchBox"></div>
+
+
+                </form>
+            </div>
+        </nav>
+
+    </div>
+</header>
+<main>
+    <div class="container">
+
+        <form>
+            <div class="form-row">
+                <div class="col-md-6 mb-3" data-name="name">
+                    <label for="validationServer01">Имя</label>
+                    <input type="text" class="form-control is-valid" id="validationServer01" placeholder="Имя" required>
+                    <div class="valid-feedback">
+                        Looks good!
+                    </div>
+                </div>
+                <div class="col-md-6 mb-3" data-name="phone">
+                    <label for="validationServer02">телефон</label>
+                    <input type="text" class="form-control is-valid" id="validationServer02" placeholder="телефон" required>
+                    <div class="valid-feedback">
+                        Looks good!
+                    </div>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="col-md-6 mb-3" data-name="mail">
+                    <label for="validationServer03">e-mail</label>
+                    <input type="text" class="form-control is-invalid" id="validationServer03" placeholder="e-mail" required>
+                    <div class="invalid-feedback">
+                        Please provide a valid city.
+                    </div>
+                </div>
+            </div>
+            <button class="btn btn-outline-danger" type="submit">Submit form</button>
+        </form>
+    </div>
+</main>
+<footer>
+    <div class="container">
+        <div class="data"></div>
+        <div class="stretch"></div>
+        <div class="social">
+            <ul>
+                <li><a href="https://t.me/cjkasd" target="_blank"><i class="fab fa-telegram"></i></a></li>
+                <li><a href="https://github.com/cosmos-29" target="_blank"><i class="fab fa-github"></i></a></li>
+            </ul>
+        </div>
+    </div>
+    <script src="js/jquery.slim.min.js"></script>
+    <script src="js/popper.js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/data.js"></script>
+    <script src="js/validator.js"></script>
+</footer>
+</body>
+</html>
