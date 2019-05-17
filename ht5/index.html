@@ -11,66 +11,90 @@
     <title>Home Task #2</title>
 </head>
 <body>
-<header>
-    <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-dark">
-            <a class="navbar-brand" href="#">E-Shop</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <form class="form-inline">
-                    <button type="button" class="btn btn-outline-danger" onclick="window.location='index.html'">
-                        Магазин</button>
-                    <button type="button" class="btn btn-outline-danger" onclick="window.location='hamburgers.html'">
-                        Бургерная
-                    </button>
-                    <button type="button" class="btn btn-outline-danger" onclick="window.location='submitForms.html'">Валидация
-                    </button>
-                    <div class="stretchBox"></div>
-                    <form action="#" class="search-form">
-                        <input type="text" class="search-field">
-                        <button class="btn-search" type="submit">
-                            <i class="fas fa-search"></i>
+<div id="app">
+    <header>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+                <a class="navbar-brand" href="#">E-Shop</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <form class="form-inline">
+                        <button type="button" class="btn btn-outline-danger" onclick="window.location='index.html'">
+                            Магазин
                         </button>
+                        <div class="stretchBox"></div>
+                        <form action="#" class="search-form">
+                            <input type="text" v-model="name" class="search-field">
+                            <button class="btn-search" @click="filter(name)" type="button">
+                                <i class="fas fa-search"></i>
+                            </button>
+                        </form>
+                        <!-- Button trigger modal -->
+                        <button  @click="show = !show" type="button" class="btn btn-outline-danger btn-cart"><i class="fas fa-cart-plus"></i>
+                        </button>
+                        <!--Всплывающее меню-->
+                        <div v-show="show" class="cart-block">
+                            <div class="cart-item" v-for="item of cart" :key="item.id_product" :data-id="item.id_product">
+                                <div class="product-bio">
+                                    <img :src="imgCartItems" alt="Some image">
+                                    <div class="product-desc">
+                                        <p class="product-title">{{item.product_name}}</p>
+                                        <p class="product-quantity">{{item.quantity}}</p>
+                                        <p class="product-single-price">{{item.price}} $</p>
+                                    </div>
+                                </div>
+                                <div class="right-block">
+                                    <p class="product-price">{{item.quantity*item.price}}</p>
+                                    <button @click="removeProductFromCart(item)" class="btn btn-outline-danger del-btn" :data-id="item.id_product">&times;</button>
+                                </div>
+                            </div>
+                            <p>{{sumOfCart}}</p>
+                        </div>
                     </form>
-                    <!-- Button trigger modal -->
-                    <button type="button" class="btn btn-outline-danger btn-cart"><i class="fas fa-cart-plus"></i>
-                    </button>                    
-                    <!--Всплывающее меню-->
-                    <div class="cart-block invisible"></div>
+                </div>
+            </nav>
 
-                </form>
-            </div>
-        </nav>
-
-    </div>
-</header>
-<main>
-    <div class="container">
-
-            <div class="row products"></div>
-
-    </div>
-
-
-</main>
-<footer>
-    <div class="container">
-        <div class="data"></div>
-        <div class="stretch"></div>
-        <div class="social">
-            <ul>
-                <li><a href="https://t.me/cjkasd" target="_blank"><i class="fab fa-telegram"></i></a></li>
-                <li><a href="https://github.com/cosmos-29" target="_blank"><i class="fab fa-github"></i></a></li>
-            </ul>
         </div>
-    </div>
-    <script src="js/jquery.slim.min.js"></script>
-    <script src="js/popper.js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/main_task1-2.js"></script>
-</footer>
+    </header>
+    <main>
+        <div class="container">
+
+            <div class="row products">
+                <div class="col-sm-3" v-for="product of products" :key="product.id_product" v-if="product.show">
+                    <div class="card product-item" data-id="${this.id_product}">
+                        <img :src="imgCatalog" alt="Some img" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">{{product.product_name}}</h5>
+                            <p class="card-text">{{product.price}}$</p>
+                            <button @click="addProductsToCart(product)" type="button" class="btn btn-outline-danger buy-btn">Купить</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="data"></div>
+            <div class="stretch"></div>
+            <div class="social">
+                <ul>
+                    <li><a href="https://t.me/cjkasd" target="_blank"><i class="fab fa-telegram"></i></a></li>
+                    <li><a href="https://github.com/cosmos-29" target="_blank"><i class="fab fa-github"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</div>
+<script src="js/jquery.slim.min.js"></script>
+<script src="js/popper.js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+<script src="js/vue.js"></script>
+<script src="js/hometask5.js"></script>
+
 </body>
 </html>

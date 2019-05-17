@@ -12173,6 +12173,7 @@ body header .navbar .cart-block {
     padding: 20px;
     color: black;
     width: 300px;
+    z-index: 1;
 }
 
 body header .navbar .invisible {
@@ -12260,11 +12261,11 @@ body header .navbar .right-block {
     text-align: right;
 }
 
-body main {
+body #app main {
     -webkit-box-flex: 1;
     -webkit-flex-grow: 1;
     -ms-flex-positive: 1;
-    flex-grow: 1;
+    flex-grow: 1 !important;
     width: auto;
     padding-top: 30px;
 }
@@ -12427,4 +12428,9 @@ body main .container .burgers .check {
 
 body main .container .burgers .check:hover {
     color: #dc3545;
+}
+body #app {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
 }
