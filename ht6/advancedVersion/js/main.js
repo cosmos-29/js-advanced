@@ -4,15 +4,17 @@ const app = new Vue({
     el: '#app',
     data: {
         name: '',
+        error: null,
     },
     methods: {
         getJson(url) {
             return fetch(url)
                 .then(result => result.json())
-                .catch(error => console.log(error))
         }
     },
     mounted() {
 
     }
 });
+
+

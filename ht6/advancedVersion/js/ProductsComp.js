@@ -20,19 +20,21 @@ Vue.component('products', {
                 for (let el of data) {
                     el.show = this.showProduct;
                     this.products.push(el);
+                    this.filtered.push(el);
                 }
             });
         this.$parent.getJson(`getProducts.json`)
             .then(data => {
                 for (let el of data) {
                     el.show = this.showProduct;
-                    this.products.push(el)
+                    this.products.push(el);
+                    this.filtered.push(el);
                 }
             });
     },
     template: `<div class="row products">    
                     <product 
-                    v-for="product of products" 
+                    v-for="product of filtered" 
                     :key="product.id_product"
                     :img="imgCatalog"
                     :product="product"></product>            

@@ -20,14 +20,9 @@ Vue.component('cart', {
     },
     methods: {
         addProductsToCart(product) {
-            this.$parent.getJson(`${API}/addToBasket.json`)
+            this.$parent.getJson(`${API}/addToBasket1.json`)
                 .then(data => {
                     if(data.result) {
-
-                        // itemObj.id_product = product.id_product;
-                        // itemObj.product_name = product.product_name;
-                        // itemObj.price = product.price;
-                        // itemObj.quantity = 1;
                         let find = this.cart.find(item => item.id_product === product.id_product);
                         if (find) {
                             find.quantity++
@@ -36,19 +31,22 @@ Vue.component('cart', {
                             this.cart.push(itemObj);
                         }
                     }})
+                .catch( error => {
+                    this.$parent.error = error;
+                    console.log(this.$parent.error)
+                });
         },
         removeProductFromCart(item) {
             this.$parent.getJson(`${API}/deleteFromBasket.json`)
                 .then(data => {
                     if (data.result) {
-                        let find = this.cart.find(product => product.id_product === item.id_product);
-                        if (find) {
-                            if (find.quantity > 1) {
-                                find.quantity--
-                            } else this.cart.splice(this.cart.indexOf(find), 1);
-                        }
+                            if (item.quantity > 1) {
+                                item.quantity--
+                            } else this.cart.splice(this.cart.indexOf(item), 1);
+
                     }
                 })
+                .catch( error => this.$parent.error = error);
         },
 
     },
@@ -58,7 +56,8 @@ Vue.component('cart', {
                 for (let el of data.contents) {
                     this.cart.push(el)
                 }
-            });
+            })
+        ;
     },
     template: `
             <div>

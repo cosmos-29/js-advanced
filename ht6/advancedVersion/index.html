@@ -26,21 +26,14 @@
                             Магазин
                         </button>
                         <div class="stretchBox"></div>
-                        <form action="#" class="search-form">
-                            <input type="text" v-model="name" class="search-field">
-                            <button class="btn-search" @click="filter(name)" type="button">
-                                <i class="fas fa-search"></i>
-                            </button>
+                        <form>
+                            <search></search>
                         </form>
                         <!-- Button trigger modal -->
-
-
                         <cart ref="cart"></cart>
-
                     </form>
                 </div>
             </nav>
-
         </div>
     </header>
     <main>
@@ -66,7 +59,9 @@
 <script src="js/bootstrap.min.js"></script>
 <script src="js/vue.js"></script>
 <script src="js/ProductsComp.js"></script>
+<script src="js/SearchComp.js"></script>
 <script src="js/CartComp.js"></script>
+<script src="js/ErrorComp.js"></script>
 <script src="js/main.js"></script>
 
 </body>
