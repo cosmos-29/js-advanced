@@ -33,26 +33,17 @@
                             </button>
                         </form>
                         <!-- Button trigger modal -->
-                        <button  @click="show = !show" type="button" class="btn btn-outline-danger btn-cart"><i class="fas fa-cart-plus"></i>
+                        <button  @click="show=!show" type="button" class="btn btn-outline-danger btn-cart"><i class="fas fa-cart-plus"></i>
                         </button>
                         <!--Всплывающее меню-->
-                        <div v-show="show" class="cart-block">
-                            <div class="cart-item" v-for="item of cart" :key="item.id_product" :data-id="item.id_product">
-                                <div class="product-bio">
-                                    <img :src="imgCartItems" alt="Some image">
-                                    <div class="product-desc">
-                                        <p class="product-title">{{item.product_name}}</p>
-                                        <p class="product-quantity">{{item.quantity}}</p>
-                                        <p class="product-single-price">{{item.price}} $</p>
-                                    </div>
-                                </div>
-                                <div class="right-block">
-                                    <p class="product-price">{{item.quantity*item.price}}</p>
-                                    <button @click="removeProductFromCart(item)" class="btn btn-outline-danger del-btn" :data-id="item.id_product">&times;</button>
-                                </div>
-                            </div>
-                            <p>{{sumOfCart}}</p>
-                        </div>
+                        <cart
+                                :cart-items="cart"
+                                :img="imgCartItems"
+                                @remove="removeProductFromCart"
+                                :visibility="show"
+                                :sum="sumOfCart"
+                        ></cart>
+
                     </form>
                 </div>
             </nav>
@@ -61,19 +52,13 @@
     </header>
     <main>
         <div class="container">
+            <products
+            :products="products"
+            :img="imgCatalog"
+            @add-product = "addProductsToCart">
+            </products>
 
-            <div class="row products">
-                <div class="col-sm-3" v-for="product of products" :key="product.id_product" v-if="product.show">
-                    <div class="card product-item" data-id="${this.id_product}">
-                        <img :src="imgCatalog" alt="Some img" class="card-img-top">
-                        <div class="card-body">
-                            <h5 class="card-title">{{product.product_name}}</h5>
-                            <p class="card-text">{{product.price}}$</p>
-                            <button @click="addProductsToCart(product)" type="button" class="btn btn-outline-danger buy-btn">Купить</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
+
         </div>
     </main>
     <footer>
@@ -92,9 +77,10 @@
 <script src="js/jquery.slim.min.js"></script>
 <script src="js/popper.js/popper.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
-
 <script src="js/vue.js"></script>
-<script src="js/hometask5.js"></script>
+<script src="js/ProductsComp.js"></script>
+<script src="js/CartComp.js"></script>
+<script src="js/main.js"></script>
 
 </body>
 </html>
