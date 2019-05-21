@@ -1,10 +1,40 @@
 Vue.component('products', {
-    props: ['products', 'img'],
+    data() {
+        return {
+            catalogUrl: '/catalogData.json',
+            products: [],
+            filtered: [],
+            imgCatalog: 'https://placehold.it/200x150',
+            showProduct: true,
+        }
+    },
+    methods: {
+        filter(word) {
+            let regexp = new RegExp(word, 'i');
+            this.filtered = this.products.filter(good => regexp.test(good.product_name));
+        }
+    },
+    mounted() {
+        this.$parent.getJson(`${API + this.catalogUrl}`)
+            .then(data => {
+                for (let el of data) {
+                    el.show = this.showProduct;
+                    this.products.push(el);
+                }
+            });
+        this.$parent.getJson(`getProducts.json`)
+            .then(data => {
+                for (let el of data) {
+                    el.show = this.showProduct;
+                    this.products.push(el)
+                }
+            });
+    },
     template: `<div class="row products">    
                     <product 
                     v-for="product of products" 
                     :key="product.id_product"
-                    :img="img"
+                    :img="imgCatalog"
                     :product="product"></product>            
                </div>`
 });
@@ -16,7 +46,7 @@ Vue.component('product', {
                         <div class="card-body">
                             <h5 class="card-title">{{product.product_name}}</h5>
                             <p class="card-text">{{product.price}}$</p>
-                            <button @click="$parent.$emit('add-product', product)" type="button" class="btn btn-outline-danger buy-btn">Купить</button>
+                            <button @click="$root.$refs.cart.addProductsToCart(product)" type="button" class="btn btn-outline-danger buy-btn">Купить</button>
                         </div>
                     </div>
                 </div>`

@@ -33,16 +33,9 @@
                             </button>
                         </form>
                         <!-- Button trigger modal -->
-                        <button  @click="show=!show" type="button" class="btn btn-outline-danger btn-cart"><i class="fas fa-cart-plus"></i>
-                        </button>
-                        <!--Всплывающее меню-->
-                        <cart
-                                :cart-items="cart"
-                                :img="imgCartItems"
-                                @remove="removeProductFromCart"
-                                :visibility="show"
-                                :sum="sumOfCart"
-                        ></cart>
+
+
+                        <cart ref="cart"></cart>
 
                     </form>
                 </div>
@@ -52,13 +45,7 @@
     </header>
     <main>
         <div class="container">
-            <products
-            :products="products"
-            :img="imgCatalog"
-            @add-product = "addProductsToCart">
-            </products>
-
-
+            <products ref="products"></products>
         </div>
     </main>
     <footer>
