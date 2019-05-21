@@ -30,7 +30,8 @@ Vue.component('products', {
                     this.products.push(el);
                     this.filtered.push(el);
                 }
-            });
+            })
+            .catch( error => this.$parent.error = error);
     },
     template: `<div class="row products">    
                     <product 

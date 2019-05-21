@@ -20,7 +20,7 @@ Vue.component('cart', {
     },
     methods: {
         addProductsToCart(product) {
-            this.$parent.getJson(`${API}/addToBasket1.json`)
+            this.$parent.getJson(`${API}/addToBasket.json`)
                 .then(data => {
                     if(data.result) {
                         let find = this.cart.find(item => item.id_product === product.id_product);
@@ -33,7 +33,6 @@ Vue.component('cart', {
                     }})
                 .catch( error => {
                     this.$parent.error = error;
-                    console.log(this.$parent.error)
                 });
         },
         removeProductFromCart(item) {
