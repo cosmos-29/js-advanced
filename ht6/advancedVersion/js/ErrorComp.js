@@ -3,17 +3,22 @@ Vue.component('error', {
         return {
             showError: false,
             block: ''
-
         }
     },
     methods: {
 
     },
 
-    template: `<div class="alert alert-danger" role="alert" v-if="$parent.error">  
-                <mess 
-                :text = $parent.error></mess>             
-               </div>`
+    template: `
+               <div class="error-block" v-if="$parent.error">
+                <p class="error-msg">
+                <button class="close-btn" @click="$parent.error = null">&times;</button>
+                 <mess 
+                :text = $parent.error></mess> 
+                </p>
+                </div>
+
+`
 
 });
 Vue.component('mess', {

@@ -20,7 +20,7 @@ Vue.component('cart', {
     },
     methods: {
         addProductsToCart(product) {
-            this.$parent.getJson(`${API}/addToBasket.json`)
+            this.$parent.getJson(`${API}/addToBasket1.json`)
                 .then(data => {
                     if(data.result) {
                         let find = this.cart.find(item => item.id_product === product.id_product);
@@ -31,12 +31,10 @@ Vue.component('cart', {
                             this.cart.push(itemObj);
                         }
                     }})
-                .catch( error => {
-                    this.$parent.error = error;
-                });
+                ;
         },
         removeProductFromCart(item) {
-            this.$parent.getJson(`${API}/deleteFromBasket.json`)
+            this.$parent.getJson(`${API}/deleteFromBasket1.json`)
                 .then(data => {
                     if (data.result) {
                             if (item.quantity > 1) {
@@ -44,8 +42,7 @@ Vue.component('cart', {
                             } else this.cart.splice(this.cart.indexOf(item), 1);
 
                     }
-                })
-                .catch( error => this.$parent.error = error);
+                });
         },
 
     },
