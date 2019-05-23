@@ -2,8 +2,262 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="57045c1a-d7ab-49ab-a6c7-2767ec1858bb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< Updated upstream
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/homeTask002/hamburger/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homeTask002/hamburger/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homeTask002/hamburger/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/libs.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/css/libs.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Background.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/images/Background.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Background.png" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/images/Background.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Forma_1 (1).png" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/images/Forma_1 (1).png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Forma_1 (2).png" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/images/Forma_1 (2).png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Forma_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/images/Forma_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Group_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/images/Group_2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Layer_2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/images/Layer_2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Layer_24.png" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/images/Layer_24.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Layer_3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/images/Layer_3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Layer_30.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/images/Layer_30.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Layer_31.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/images/Layer_31.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Layer_32.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/images/Layer_32.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Layer_37.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/images/Layer_37.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Layer_38.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/images/Layer_38.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Layer_4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/images/Layer_4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Layer_40.png" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/images/Layer_40.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Layer_41.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/images/Layer_41.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Layer_43.png" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/images/Layer_43.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Layer_43_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/images/Layer_43_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Layer_44 (1).png" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/images/Layer_44 (1).png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Layer_44.png" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/images/Layer_44.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Layer_45 (1).png" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/images/Layer_45 (1).png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Layer_45 (2).png" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/images/Layer_45 (2).png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Layer_45.png" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/images/Layer_45.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Layer_45_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/images/Layer_45_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Layer_46 (1).png" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/images/Layer_46 (1).png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Layer_46.png" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/images/Layer_46.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Layer_47.png" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/images/Layer_47.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Layer_5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/images/Layer_5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Layer_6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/images/Layer_6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Layer_7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/images/Layer_7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Layer_8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/images/Layer_8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Layer_9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/images/Layer_9.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Rectangle_26.png" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/images/Rectangle_26.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Rectangle_9_copy.png" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/images/Rectangle_9_copy.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/addToCart.png" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/images/addToCart.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/arrowToRight.png" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/images/arrowToRight.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/arrows.png" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/images/arrows.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/caret-down-solid.svg" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/images/caret-down-solid.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cart.png" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/images/cart.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cartPink.png" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/images/cartPink.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/check-solid.svg" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/images/check-solid.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/checkbox.png" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/images/checkbox.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/featuredItem1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/images/featuredItem1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/featuredItem2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/images/featuredItem2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/featuredItem3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/images/featuredItem3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/featuredItem4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/images/featuredItem4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/featuredItem5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/images/featuredItem5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/featuredItem6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/images/featuredItem6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/featuredItem7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/images/featuredItem7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/featuredItem8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/images/featuredItem8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/images/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/offer1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/images/offer1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/offer2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/images/offer2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/offer3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/images/offer3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/offer4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/images/offer4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/offerDetails1.png" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/images/offerDetails1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/offerDetails2.png" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/images/offerDetails2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/offerDetails3.png" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/images/offerDetails3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/offerForWomen.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/images/offerForWomen.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/priceRange.svg" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/images/priceRange.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/product1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/images/product1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/product2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/images/product2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/product3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/images/product3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/products/product1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/images/products/product1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/products/product2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/images/products/product2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/products/product3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/images/products/product3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/products/product4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/images/products/product4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/products/product5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/images/products/product5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/products/product6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/images/products/product6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/products/product7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/images/products/product7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/products/product8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/images/products/product8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/products/product9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/images/products/product9.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/regChecked.png" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/images/regChecked.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/regEmpty.png" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/images/regEmpty.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/reviewPerson.png" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/images/reviewPerson.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/singlePage/Layer_44.png" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/images/singlePage/Layer_44.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/singlePage/Layer_45.png" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/images/singlePage/Layer_45.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/singlePage/Layer_46.png" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/images/singlePage/Layer_46.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/singlePage/Layer_47.png" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/images/singlePage/Layer_47.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/slider1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/images/slider1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/subscribe.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/images/subscribe.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/topHeaderBack.png" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/images/topHeaderBack.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/bootstrap.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/bootstrap.min.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/common.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery.slim.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/jquery.slim.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery.slim.min.map" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/jquery.slim.min.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery/AUTHORS.txt" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/jquery/AUTHORS.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery/LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/jquery/LICENSE.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/jquery/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery/bower.json" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/jquery/bower.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery/dist/core.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/jquery/dist/core.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery/dist/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/jquery/dist/jquery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery/dist/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/jquery/dist/jquery.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery/dist/jquery.min.map" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/jquery/dist/jquery.min.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery/dist/jquery.slim.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/jquery/dist/jquery.slim.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery/dist/jquery.slim.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/jquery/dist/jquery.slim.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery/dist/jquery.slim.min.map" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/jquery/dist/jquery.slim.min.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery/external/sizzle/LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/jquery/external/sizzle/LICENSE.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery/external/sizzle/dist/sizzle.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/jquery/external/sizzle/dist/sizzle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery/external/sizzle/dist/sizzle.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/jquery/external/sizzle/dist/sizzle.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery/external/sizzle/dist/sizzle.min.map" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/jquery/external/sizzle/dist/sizzle.min.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/jquery/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery/src/ajax.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/jquery/src/ajax.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery/src/ajax/jsonp.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/jquery/src/ajax/jsonp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery/src/ajax/load.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/jquery/src/ajax/load.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery/src/ajax/parseXML.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/jquery/src/ajax/parseXML.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery/src/ajax/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/jquery/src/ajax/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery/src/ajax/var/location.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/jquery/src/ajax/var/location.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery/src/ajax/var/nonce.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/jquery/src/ajax/var/nonce.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery/src/ajax/var/rquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/jquery/src/ajax/var/rquery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery/src/ajax/xhr.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/jquery/src/ajax/xhr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery/src/attributes.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/jquery/src/attributes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery/src/attributes/attr.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/jquery/src/attributes/attr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery/src/attributes/classes.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/jquery/src/attributes/classes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery/src/attributes/prop.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/jquery/src/attributes/prop.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery/src/attributes/support.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/jquery/src/attributes/support.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery/src/attributes/val.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/jquery/src/attributes/val.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery/src/callbacks.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/jquery/src/callbacks.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery/src/core.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/jquery/src/core.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery/src/core/DOMEval.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/jquery/src/core/DOMEval.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery/src/core/access.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/jquery/src/core/access.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery/src/core/camelCase.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/jquery/src/core/camelCase.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery/src/core/init.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/jquery/src/core/init.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery/src/core/nodeName.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/jquery/src/core/nodeName.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery/src/core/parseHTML.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/jquery/src/core/parseHTML.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery/src/core/ready-no-deferred.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/jquery/src/core/ready-no-deferred.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery/src/core/ready.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/jquery/src/core/ready.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery/src/core/readyException.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/jquery/src/core/readyException.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery/src/core/stripAndCollapse.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/jquery/src/core/stripAndCollapse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery/src/core/support.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/jquery/src/core/support.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery/src/core/toType.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/jquery/src/core/toType.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery/src/core/var/rsingleTag.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/jquery/src/core/var/rsingleTag.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery/src/css.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/jquery/src/css.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery/src/css/addGetHookIf.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/jquery/src/css/addGetHookIf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery/src/css/adjustCSS.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/jquery/src/css/adjustCSS.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery/src/css/curCSS.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/jquery/src/css/curCSS.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery/src/css/hiddenVisibleSelectors.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/jquery/src/css/hiddenVisibleSelectors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery/src/css/showHide.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/jquery/src/css/showHide.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery/src/css/support.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/jquery/src/css/support.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery/src/css/var/cssExpand.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/jquery/src/css/var/cssExpand.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery/src/css/var/getStyles.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/jquery/src/css/var/getStyles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery/src/css/var/isHiddenWithinTree.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/jquery/src/css/var/isHiddenWithinTree.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery/src/css/var/rboxStyle.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/jquery/src/css/var/rboxStyle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery/src/css/var/rnumnonpx.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/jquery/src/css/var/rnumnonpx.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery/src/css/var/swap.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/jquery/src/css/var/swap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery/src/data.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/jquery/src/data.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery/src/data/Data.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/jquery/src/data/Data.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery/src/data/var/acceptData.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/jquery/src/data/var/acceptData.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery/src/data/var/dataPriv.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/jquery/src/data/var/dataPriv.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery/src/data/var/dataUser.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/jquery/src/data/var/dataUser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery/src/deferred.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/jquery/src/deferred.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery/src/deferred/exceptionHook.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/jquery/src/deferred/exceptionHook.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery/src/deprecated.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/jquery/src/deprecated.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery/src/dimensions.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/jquery/src/dimensions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery/src/effects.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/jquery/src/effects.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery/src/effects/Tween.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/jquery/src/effects/Tween.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery/src/effects/animatedSelector.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/jquery/src/effects/animatedSelector.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery/src/event.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/jquery/src/event.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery/src/event/ajax.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/jquery/src/event/ajax.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery/src/event/alias.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/jquery/src/event/alias.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery/src/event/focusin.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/jquery/src/event/focusin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery/src/event/support.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/jquery/src/event/support.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery/src/event/trigger.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/jquery/src/event/trigger.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery/src/exports/amd.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/jquery/src/exports/amd.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery/src/exports/global.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/jquery/src/exports/global.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery/src/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/jquery/src/jquery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery/src/manipulation.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/jquery/src/manipulation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery/src/manipulation/_evalUrl.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/jquery/src/manipulation/_evalUrl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery/src/manipulation/buildFragment.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/jquery/src/manipulation/buildFragment.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery/src/manipulation/getAll.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/jquery/src/manipulation/getAll.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery/src/manipulation/setGlobalEval.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/jquery/src/manipulation/setGlobalEval.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery/src/manipulation/support.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/jquery/src/manipulation/support.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery/src/manipulation/var/rcheckableType.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/jquery/src/manipulation/var/rcheckableType.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery/src/manipulation/var/rscriptType.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/jquery/src/manipulation/var/rscriptType.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery/src/manipulation/var/rtagName.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/jquery/src/manipulation/var/rtagName.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery/src/manipulation/wrapMap.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/jquery/src/manipulation/wrapMap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery/src/offset.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/jquery/src/offset.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery/src/queue.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/jquery/src/queue.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery/src/queue/delay.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/jquery/src/queue/delay.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery/src/selector-native.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/jquery/src/selector-native.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery/src/selector-sizzle.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/jquery/src/selector-sizzle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery/src/selector.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/jquery/src/selector.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery/src/serialize.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/jquery/src/serialize.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery/src/traversing.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/jquery/src/traversing.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery/src/traversing/findFilter.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/jquery/src/traversing/findFilter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery/src/traversing/var/dir.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/jquery/src/traversing/var/dir.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery/src/traversing/var/rneedsContext.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/jquery/src/traversing/var/rneedsContext.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery/src/traversing/var/siblings.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/jquery/src/traversing/var/siblings.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery/src/var/ObjectFunctionString.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/jquery/src/var/ObjectFunctionString.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery/src/var/arr.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/jquery/src/var/arr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery/src/var/class2type.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/jquery/src/var/class2type.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery/src/var/concat.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/jquery/src/var/concat.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery/src/var/document.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/jquery/src/var/document.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery/src/var/documentElement.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/jquery/src/var/documentElement.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery/src/var/fnToString.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/jquery/src/var/fnToString.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery/src/var/getProto.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/jquery/src/var/getProto.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery/src/var/hasOwn.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/jquery/src/var/hasOwn.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery/src/var/indexOf.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/jquery/src/var/indexOf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery/src/var/isFunction.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/jquery/src/var/isFunction.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery/src/var/isWindow.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/jquery/src/var/isWindow.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery/src/var/pnum.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/jquery/src/var/pnum.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery/src/var/push.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/jquery/src/var/push.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery/src/var/rcssNum.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/jquery/src/var/rcssNum.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery/src/var/rnothtmlwhite.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/jquery/src/var/rnothtmlwhite.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery/src/var/slice.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/jquery/src/var/slice.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery/src/var/support.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/jquery/src/var/support.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery/src/var/toString.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/jquery/src/var/toString.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery/src/wrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/jquery/src/wrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/libs.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/libs.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/popper.js/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/popper.js/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/popper.js/dist/esm/popper-utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/popper.js/dist/esm/popper-utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/popper.js/dist/esm/popper-utils.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/popper.js/dist/esm/popper-utils.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/popper.js/dist/esm/popper-utils.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/popper.js/dist/esm/popper-utils.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/popper.js/dist/esm/popper-utils.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/popper.js/dist/esm/popper-utils.min.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/popper.js/dist/esm/popper.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/popper.js/dist/esm/popper.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/popper.js/dist/esm/popper.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/popper.js/dist/esm/popper.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/popper.js/dist/esm/popper.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/popper.js/dist/esm/popper.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/popper.js/dist/esm/popper.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/popper.js/dist/esm/popper.min.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/popper.js/dist/popper-utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/popper.js/dist/popper-utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/popper.js/dist/popper-utils.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/popper.js/dist/popper-utils.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/popper.js/dist/popper-utils.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/popper.js/dist/popper-utils.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/popper.js/dist/popper-utils.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/popper.js/dist/popper-utils.min.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/popper.js/dist/popper.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/popper.js/dist/popper.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/popper.js/dist/popper.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/popper.js/dist/popper.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/popper.js/dist/popper.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/popper.js/dist/popper.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/popper.js/dist/popper.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/popper.js/dist/popper.min.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/popper.js/dist/umd/popper-utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/popper.js/dist/umd/popper-utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/popper.js/dist/umd/popper-utils.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/popper.js/dist/umd/popper-utils.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/popper.js/dist/umd/popper-utils.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/popper.js/dist/umd/popper-utils.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/popper.js/dist/umd/popper-utils.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/popper.js/dist/umd/popper-utils.min.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/popper.js/dist/umd/popper.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/popper.js/dist/umd/popper.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/popper.js/dist/umd/popper.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/popper.js/dist/umd/popper.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/popper.js/dist/umd/popper.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/popper.js/dist/umd/popper.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/popper.js/dist/umd/popper.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/popper.js/dist/umd/popper.min.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/popper.js/dist/umd/poppper.js.flow" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/popper.js/dist/umd/poppper.js.flow" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/popper.js/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/popper.js/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/popper.js/index.js.flow" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/popper.js/index.js.flow" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/popper.js/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/popper.js/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/popper.js/popper.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/popper.js/popper.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/popper.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/homeTask001/js/popper.min.js" afterDir="false" />
+>>>>>>> Stashed changes
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -15,46 +269,89 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+<<<<<<< Updated upstream
+    <leaf>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1323">
-              <caret line="125" column="38" selection-start-line="125" selection-start-column="38" selection-end-line="125" selection-end-column="38" />
+            <state relative-caret-position="533">
+              <caret line="206" column="18" lean-forward="true" selection-start-line="206" selection-start-column="18" selection-end-line="206" selection-end-column="18" />
+=======
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/homeTask001/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="47" />
+>>>>>>> Stashed changes
               <folding>
-                <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="e#9636#9642#0" expanded="true" />
+<<<<<<< Updated upstream
+=======
+                <element signature="n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" />
+>>>>>>> Stashed changes
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/main.js">
+        <entry file="file://$PROJECT_DIR$/homeTask002/hamburger/index.html">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/homeTask002/hamburger/js/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/homeTask002/hamburger/css/main.css">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/homeTask001/js/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
+            <state relative-caret-position="399">
+              <caret line="19" column="37" lean-forward="true" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+=======
             <state relative-caret-position="336">
               <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$USER_HOME$/Downloads/lesson2_26.04/lesson2.html">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Downloads/lesson2_26.04/project/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="26" column="59" lean-forward="true" selection-start-line="26" selection-start-column="59" selection-end-line="26" selection-end-column="59" />
+            <state relative-caret-position="336">
+              <caret line="16" column="52" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="52" />
+>>>>>>> Stashed changes
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/main.css">
+        <entry file="file://$PROJECT_DIR$/homeTask001/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203847">
+            <state relative-caret-position="357">
               <caret line="9707" column="49" selection-start-line="9707" selection-start-column="49" selection-end-line="9707" selection-end-column="49" />
             </state>
           </provider>
@@ -75,9 +372,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/css/main.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/main.js" />
+        <option value="$PROJECT_DIR$/css/main.css" />
+<<<<<<< Updated upstream
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -92,9 +390,22 @@
       </list>
     </option>
   </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-1889" />
+    <option name="y" value="63" />
+=======
+        <option value="$PROJECT_DIR$/js/main.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/homeTask002/hamburger/index.html" />
+        <option value="$PROJECT_DIR$/homeTask002/hamburger/css/main.css" />
+        <option value="$PROJECT_DIR$/homeTask002/hamburger/js/main.js" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="11" />
+    <option name="x" value="2" />
     <option name="y" value="23" />
+>>>>>>> Stashed changes
     <option name="width" value="1889" />
     <option name="height" value="1057" />
   </component>
@@ -103,7 +414,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -114,17 +424,18 @@
             <path>
               <item name="js-advanced" type="b2602c69:ProjectViewProjectNode" />
               <item name="js-advanced" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="homeTask001" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="js-advanced" type="b2602c69:ProjectViewProjectNode" />
               <item name="js-advanced" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="homeTask002" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -135,7 +446,12 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.other" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/homeTask001" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -160,23 +476,39 @@
       <option name="presentableId" value="Default" />
       <updated>1556270115960</updated>
       <workItem from="1556270117087" duration="4088000" />
+<<<<<<< Updated upstream
+=======
       <workItem from="1556276963590" duration="878000" />
       <workItem from="1556297529174" duration="1956000" />
       <workItem from="1556379197729" duration="391000" />
-      <workItem from="1556379739630" duration="580000" />
+      <workItem from="1556379739630" duration="1865000" />
+      <workItem from="1556389995882" duration="1414000" />
+      <workItem from="1556438906380" duration="4314000" />
+>>>>>>> Stashed changes
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7893000" />
+<<<<<<< Updated upstream
+    <option name="totallyTimeSpent" value="4088000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="11" y="23" width="1889" height="1057" extended-state="0" />
+    <frame x="-1890" y="24" width="1889" height="1057" extended-state="6" />
     <editor active="true" />
+=======
+    <option name="totallyTimeSpent" value="14906000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="2" y="23" width="1889" height="1057" extended-state="0" />
+>>>>>>> Stashed changes
     <layout>
+      <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989154" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" sideWeight="0.5010846" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -184,10 +516,6 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -197,39 +525,91 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< Updated upstream
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="19" column="37" lean-forward="true" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+=======
+    <entry file="file://$USER_HOME$/Downloads/lesson2_26.04/lesson2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-209">
+          <caret line="26" column="59" lean-forward="true" selection-start-line="26" selection-start-column="59" selection-end-line="26" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homeTask001/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="47" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" />
+>>>>>>> Stashed changes
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homeTask002/hamburger/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
+        <state relative-caret-position="357">
+          <caret line="9707" column="49" selection-start-line="9707" selection-start-column="49" selection-end-line="9707" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1323">
-          <caret line="125" column="38" selection-start-line="125" selection-start-column="38" selection-end-line="125" selection-end-column="38" />
+        <state relative-caret-position="533">
+          <caret line="206" column="18" lean-forward="true" selection-start-line="206" selection-start-column="18" selection-end-line="206" selection-end-column="18" />
           <folding>
             <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="e#9636#9642#0" expanded="true" />
           </folding>
+=======
+        <state relative-caret-position="210">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203847">
-          <caret line="9707" column="49" selection-start-line="9707" selection-start-column="49" selection-end-line="9707" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/main.js">
+    <entry file="file://$PROJECT_DIR$/homeTask001/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
           <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Downloads/lesson2_26.04/lesson2.html">
+    <entry file="file://$USER_HOME$/Downloads/lesson2_26.04/project/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="26" column="59" lean-forward="true" selection-start-line="26" selection-start-column="59" selection-end-line="26" selection-end-column="59" />
+        <state relative-caret-position="336">
+          <caret line="16" column="52" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homeTask001/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203847">
+          <caret line="9707" column="49" selection-start-line="9707" selection-start-column="49" selection-end-line="9707" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homeTask002/hamburger/css/main.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homeTask002/hamburger/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+>>>>>>> Stashed changes
         </state>
       </provider>
     </entry>
