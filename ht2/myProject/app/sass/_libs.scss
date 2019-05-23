@@ -1,0 +1,33 @@
+//@import "../libs/bootstrap/scss/bootstrap.scss";
+//@import "../libs/magnific-popup/dist/magnific-popup.css";
+@mixin media($_minWidth, $_maxWidth) {
+    @media (min-width: $_minWidth) and (max-width: $_maxWidth) {
+        @content;
+    }
+}
+//Задаем переменные цветовому решению.
+$mainColor: #343a40;
+$buttonColor: #dc3545;
+$widthAll: 1140px;
+$colorAll: #ffffff;
+$fontFamily: 'Lato';
+$colorBackground: #f8f3f4;
+$colorGrey: #636363;
+$grey: #656565;
+$colorGreyDark: #4a4a4a;
+$lightGrey: #eaeaea;
+$colorGreyDark2: #6f6e6e;
+$colorGreyNew: #575757;
+$colorDark: #222222;
+$colorWhite: #f5f3f3;
+$colorWhite2: #e2e2e2;
+$colorVckgrndItem: #f1f7fa;
+$widthContents: calc(50% - 20px);
+$womenGrey: #e9e9e9;
+$newColor: #b3b2b2;
+$var12: #ff0d0d;
+
+@mixin margin {    
+    margin: 0 auto;
+    width: $widthAll;
+}
