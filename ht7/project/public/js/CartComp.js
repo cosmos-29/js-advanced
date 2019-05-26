@@ -47,7 +47,7 @@ Vue.component('cart', {
                         }
                     })
             } else {
-                this.$parent.delJson(`/api/cart/${item.id_product}`, item);
+                this.$parent.delJson(`/api/cart/${item.id_product}`);
                 this.cart.splice(this.cart.indexOf(item), 1);
             }
             }
