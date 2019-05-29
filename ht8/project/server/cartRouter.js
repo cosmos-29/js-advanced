@@ -4,7 +4,7 @@ const fs = require('fs');
 const router = express.Router();
 
 router.get('/', (req, res) => {
-    fs.readFile('server/db/userCart.json', 'utf8', (err, data) => {
+    fs.readFile('server/db/cart.json', 'utf8', (err, data) => {
         if(err){
             res.sendStatus(404, JSON.stringify({result: 0, text: err}))
         } else {

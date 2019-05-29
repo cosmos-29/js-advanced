@@ -1,4 +1,5 @@
 Vue.component('products', {
+    props: ['quantity'],
     data() {
         return {
             catalogUrl: '/catalogData.json',
@@ -6,13 +7,18 @@ Vue.component('products', {
             filtered: [],
             imgCatalog: 'https://placehold.it/200x150',
             showProduct: true,
+            count: 0
         }
     },
     methods: {
         filter(word) {
             let regexp = new RegExp(word, 'i');
             this.filtered = this.products.filter(good => regexp.test(good.product_name));
+        },
+        counter(i) {
+            return this.count = i + 1;
         }
+
     },
     mounted() {
         this.$parent.getJson(`/api/products`)
@@ -24,24 +30,28 @@ Vue.component('products', {
                 }
             });
     },
-    template: `<div class="row products">    
-                    <product 
-                    v-for="product of filtered" 
-                    :key="product.id_product"
-                    :img="imgCatalog"
-                    :product="product"></product>            
-               </div>`
+    template: ` <div class="itemsIcons">
+                        <product v-for="(product, index) of filtered"
+                        :key="product.id_product"                        
+                        :product="product" 
+                        :index ="index"  
+                        v-if="index< quantity"                                          
+                        ></product>
+                </div> `
 });
 Vue.component('product', {
-    props: ['product', 'img'],
-    template: `<div class="col-sm-3">
-                    <div class="card product-item" data-id="${this.id_product}">
-                        <img :src="img" alt="Some img" class="card-img-top">
-                        <div class="card-body">
-                            <h5 class="card-title">{{product.product_name}}</h5>
-                            <p class="card-text">{{product.price}}$</p>
-                            <button @click="$root.$refs.cart.addProductsToCart(product)" type="button" class="btn btn-outline-danger buy-btn">Купить</button>
+    props: ['product'],
+    template: `<div class="fItems">
+                    <div class="fItem8 forAdaptive">
+                        <img :src="product.picture" alt="Some picture">
+                        <div class="background">
+                            <button><i class="fas fa-shopping-cart"></i> Add to Cart</button>
                         </div>
                     </div>
-                </div>`
+                    <div class="sign">
+                        <h2>{{product.product_name}}</h2>
+                        <p>\${{product.price}}</p>
+                    </div>
+                </div>
+            </div>`
 });
