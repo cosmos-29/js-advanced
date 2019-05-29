@@ -1,0 +1,20 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "**/*.json"
+    ]
+  },
+  "author": "cosmos-29",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.0",
+    "moment": "^2.24.0"
+  }
+}
